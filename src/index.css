@@ -12,15 +12,8 @@ code {
     monospace;
 }
 
-@keyframes changeText {
-  0% {content: "Full-Stack Developer 👨‍💻";}
-  33% {content: "Salesforce Developer ☁️";}
-  66% {content: "ETL Developer 🔢"}
-  100% {content: "Full-Stack Developer 👨‍💻";}
-}
-
-
 .NavBar{
+  font-family: Arial, Helvetica, sans-serif;
   background-color: rgba(0 ,0 ,0);
   display: flex;
   justify-content: flex-end;
@@ -30,6 +23,7 @@ code {
 .Nav-link{
   padding: 10px;
   color:rgba(255 ,255 ,255 ,0.8);
+  text-decoration: none;
 }
 
 .Nav-link:hover{
@@ -44,6 +38,10 @@ code {
   color:white;
 }
 
+.App{
+  background-color: black;
+}
+
 .home-page{
   height: 90vh;
   display: flex;
@@ -55,7 +53,8 @@ code {
 .outerblock{
   width: 100%;
   height: 100%;
-  background: url('./images/background_try.gif') no-repeat center center/cover; 
+  background: url('./images/background_try.gif') no-repeat center center;
+  background-size:contain; 
   display: flex;
   justify-content: center;
   align-items: center;
@@ -70,11 +69,13 @@ code {
   justify-content: center;
   text-align: center;
   margin-right: 20px;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 
 .innerblock h1{
-  font-family:;
+  font-family: 'Poppins', sans-serif;
+  font-size: 40px;
+  font-weight: 900;
 }
 
 .innerblock:hover{
@@ -83,18 +84,12 @@ code {
 }
 
 .Animated-text{
-  font-size: 25px;
+  font-size: 28px;
+  font-family: 'Arial', sans-serif;
+  font-weight: 700;
   text-align: center;
   overflow: hidden;
   white-space: nowrap;
-  animation:cubic-bezier(0.39, 0.575, 0.565, 1);
-}
-
-.Animated-text::before{
-  content: "Full-Stack Developer 👨‍💻";
-  animation-name: changeText;
-  animation-duration: 6s;
-  animation-iteration-count: infinite;
 }
 
 .innerblock .RB{
@@ -103,7 +98,7 @@ code {
   background-color: cornflowerblue;
   color: wheat;
   border: 3px solid green;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 
 .innerblock .RB:hover{
@@ -116,7 +111,7 @@ code {
   background-color: green;
   color: white;
   border: 3px solid cornflowerblue;; /* Add border to buttons */
-  border-radius: 5px;
+  border-radius: 10px;
 }
 
 .innerblock .CB:hover{
@@ -128,11 +123,64 @@ code {
   height: 46%;
   width : 30%;
   background: url('./images/myimg.jpg') no-repeat center center/cover;
-  border-radius: 5px;
+  border-radius: 10px;
+  overflow: hidden;
 }
 
 .imgcntr:hover{
   height: 50%;
   width: 33%;
   transition: height 0.6s ease, width 0.6s ease;
+}
+
+.shooting-star {
+  position: absolute;
+  top: 10%;
+  right: 0;
+  width: 100px;
+  height: 100px; 
+  background-image: url('./images/asteroid.gif');
+  background-size: cover;
+  opacity: 0;
+  transition: opacity 0.5s ease; 
+}
+
+.imgcntr:hover .shooting-star {
+  opacity: 1; 
+  transform: translate(-650%, 650%) scale(0);
+  transition: transform 2s ease, opacity 0.5s ease;
+}
+
+.About-outer{
+  color: white;
+  display:flex;
+  font-size: 30px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.lights-cntr{
+  flex-direction: row;
+  align-items: center;
+  margin: auto;
+}
+
+.myimg2{
+  display: flex;
+  height: 300px;
+  width : 200px;
+  background: url('./images/myimg.jpg') no-repeat center/cover;
+  padding: 40px;
+  overflow: hidden;
+  margin-top: 10px;
+}
+
+.about-data{
+  flex-direction: column;
+  font-size: large;
+  line-height: 1.5;
+  text-align: left;
+  padding: 3%;
 }
