@@ -133,6 +133,7 @@ code {
   transition: height 0.6s ease, width 0.6s ease;
 }
 
+
 .shooting-star {
   position: absolute;
   top: 10%;
@@ -160,11 +161,19 @@ code {
   align-items: center;
   padding: 10px;
 }
+.lights-cntr {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
 
-.lights-cntr{
-  flex-direction: row;
-  align-items: center;
-  margin: auto;
+.l1{
+  display: flex;
+  height: 300px;
+  width : 200px;
+  background: url('./images/lamp.png') no-repeat center/cover;
+  padding: 40px;
+  margin-top: 10px;
 }
 
 .myimg2{
@@ -173,7 +182,6 @@ code {
   width : 200px;
   background: url('./images/myimg.jpg') no-repeat center/cover;
   padding: 40px;
-  overflow: hidden;
   margin-top: 10px;
 }
 
