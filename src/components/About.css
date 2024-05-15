@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+
+.About-outer{
+    /*background-image: url('../images/about-background.gif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;*/
+    height: 100vh;
+    color: white;
+    display:flex;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .About-outer.h1{
+    margin-left: 10%;
+    font-weight: 100;
+  }
+  
+  
+  .lights-cntr {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  
+  @keyframes hoverAnimation {
+        0%, 100% {
+        transform: translateY(0);
+    }
+    25% {
+        transform: translateY(-5px) rotate(3deg);
+    }
+    50% {
+        transform: translateY(-10px) rotate(-3deg);
+    }
+    75% {
+        transform: translateY(-5px) rotate(3deg);
+    }
+  }
+  
+  .l1{
+    position: relative;
+    display: flex;
+    height: 150px;
+    width : 150px;
+    padding: 60px;
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-right: 90px;
+    animation: hoverAnimation 2s infinite ease-in-out;
+  }
+  
+  .myimg2{
+    display: flex;
+    height: 300px;
+    width : 200px;
+    background: url('../images/myimg.jpg') no-repeat center/cover;
+    padding: 40px;
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-right:30px;
+  }
+  
+  .myimg2:hover{
+    height: 320px;
+    width: 220px;
+    transition: height 0.6s ease, width 0.6s ease;
+  }
+  
+  .lightswitch{
+    margin: auto;
+    margin-left: 10px;
+  }
+  
+  
+  .yellow-light{
+    position: absolute;
+    top: 46%;
+    left: 50%;
+    width: 40%;
+    height: 0;
+    border-radius: 20px;
+    transform: translateX(-50%);
+    background-color: rgba(0, 255, 255, 0.5);
+    overflow: hidden;
+    opacity: 0; 
+    transition: height 0.5s ease; 
+  }
+  
+  .visible {
+    height: 110%;
+    opacity: 0.7;
+  }
+  
+  .hidden{
+    display: none;
+  }
+   
+  .about-data {
+    flex-direction: column;
+    font-size: large;
+    line-height: 1.5;
+    text-align: left;
+    padding: 3%;
+  }
+  
+  .text-appear{
+    color: black;
+    transition: color 0.9s ease;
+  }
+  
+  .text-appear.visible {
+    color: white;
+  }  
