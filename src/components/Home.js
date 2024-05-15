@@ -1,7 +1,10 @@
 import Typewriter from 'typewriter-effect'
+import React from 'react';
+import './Home.css';
+
 const Home = () => {    
     return ( 
-        <div className="home-page">
+        <div id="/" className="home-page">
             <div className="outerblock">
                 <div className="innerblock">
                     <h1>HEMANTH SAI GOKARAKONDA</h1>
