@@ -21,7 +21,6 @@ import azure from '../images/skills_img/cloud/azure.svg'
 import gcp from '../images/skills_img/cloud/gcloud.png'
 import docker from '../images/skills_img/cloud/docker.svg'
 import eclipse from '../images/skills_img/other/eclipse.svg'
-import notepad from '../images/skills_img/other/notepad++.png'
 import vscode from '../images/skills_img/other/vscode.svg'
 import ai from '../images/skills_img/other/ai.png'
 import nlp from '../images/skills_img/other/nlp.png'
@@ -56,8 +55,12 @@ const Skills = () => {
                     <figcaption>JavaScript</figcaption>
                 </figure>
                 <figure>
-                    <img src={db} alt="Database"/>
-                    <figcaption>Database</figcaption>
+                    <img src={oracle} alt="oracle"/>
+                    <figcaption>Oracle</figcaption>
+                </figure>
+                <figure>
+                    <img src={mysql} alt="mysql"/>
+                    <figcaption>MySQL</figcaption>
                 </figure>
             </div>
             <h2 className="skill-title">Web Technologies</h2>
@@ -85,29 +88,6 @@ const Skills = () => {
                 <figure>
                     <img src={api} alt="API"/>
                     <figcaption>API</figcaption>
-                </figure>
-            </div>
-            <h2 className="skill-title">Databases</h2>
-            <div className="Tech-box database">
-                <figure>
-                    <img src={oracle} alt="oracle"/>
-                    <figcaption>Oracle</figcaption>
-                </figure>
-                <figure>
-                    <img src={mysql} alt="mysql"/>
-                    <figcaption>MySQL</figcaption>
-                </figure>
-                <figure>
-                    <img src={s3} alt="s3"/>
-                    <figcaption>AWS S3</figcaption>
-                </figure>
-                <figure>
-                    <img src={rds} alt="rds"/>
-                    <figcaption>AWS RDS</figcaption>
-                </figure>
-                <figure>
-                    <img src={mongodb} alt="Mongodb"/>
-                    <figcaption>MongoDB</figcaption>
                 </figure>
             </div>
             <h2 className="skill-title">Cloud Skills</h2>
@@ -140,10 +120,6 @@ const Skills = () => {
                     <figcaption>VsCode</figcaption>
                 </figure>
                 <figure>
-                    <img src={notepad} alt="np++"/>
-                    <figcaption>Notepad++</figcaption>
-                </figure>
-                <figure>
                     <img src={ai} alt="AI"/>
                     <figcaption>Artificial Intelligence</figcaption>
                 </figure>
@@ -159,10 +135,10 @@ const Skills = () => {
                     <img src={twilio} alt="Twilio"/>
                     <figcaption>Twilio</figcaption>
                 </figure>
-                <figure>
+                {/* <figure>
                     <img src={npm} alt="Npm"/>
                     <figcaption>Node Package Manager</figcaption>
-                </figure>
+                </figure> */}
                 <figure>
                     <img src={linux} alt="Linux"/>
                     <figcaption>Linux</figcaption>
