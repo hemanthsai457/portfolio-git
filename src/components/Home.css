@@ -69,7 +69,7 @@
     padding: 10px;
     background-color: green;
     color: white;
-    border: 3px solid cornflowerblue;; /* Add border to buttons */
+    border: 3px solid cornflowerblue; /* Add border to buttons */
     border-radius: 10px;
   }
   
@@ -81,7 +81,7 @@
   .imgcntr{
     height: 46%;
     width : 30%;
-    background: url('../images/myimg.jpg') no-repeat center center/cover;
+    background: url('../images/img4.jpg') no-repeat center center/cover;
     border-radius: 10px;
     overflow: hidden;
   }
