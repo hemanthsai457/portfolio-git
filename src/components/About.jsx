@@ -9,9 +9,6 @@ import linkedin from '../images/contact/linkedin.png';
 const label = { inputProps: { 'aria-label': 'Switch' } };
 
 const About = () => {
-  const scrollToTop=() =>{
-    window.scrollTo({top:0, behavior:'smooth'});
-  };
 
   const [isLightOn, setLightOn] = React.useState(false);
 
