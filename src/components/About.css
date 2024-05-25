@@ -8,7 +8,7 @@
 }
 
 .About-outer{
-    height: 100vh;
+    height: 120vh;
     color: white;
     display:flex;
     font-family: 'Poppins', sans-serif;
@@ -99,6 +99,7 @@
   }
    
   .about-data {
+    width: 90%;
     flex-direction: column;
     font-size: large;
     line-height: 1.5;

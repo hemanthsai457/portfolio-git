@@ -1,4 +1,4 @@
-import './Contactme.css';
+import './contactme.css';
 import phone from '../images/contact/phone.png';
 import gmail from '../images/contact/gmail.png';
 import React, { useRef } from 'react';

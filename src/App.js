@@ -5,19 +5,24 @@ import About from './components/About';
 import Skills from './components/Skills';
 import WorkExp from './components/WorkExp';
 import Projects from './components/Projects';
-import Contact from './components/Contactme';
+import Contactme from './components/contactme';
 import Footer from './components/Footer';
+import { Helmet } from 'react-helmet';
 
 function App() {
   return (
       <div className='App'>
+        <Helmet>
+          <title>Hemanth Sai Gokarakonda</title>
+          <link rel="icon" href="%PUBLIC_URL%/custom-logo.ico" />
+        </Helmet>
             <NavBar />
             <Home />
             <About />
             <Skills />
             <WorkExp />
             <Projects />
-            <Contact />
+            <Contactme />
             <Footer />
       </div>
   );

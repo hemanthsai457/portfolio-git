@@ -6,8 +6,8 @@
     color: white;
     display: flex;
     flex-direction: column;
-    background-image: url('../images/contact/bg.jpg'); /* Ensure this path is correct */
-    background-size: cover; /* or 'contain' depending on the desired effect */
+    background-image: url('../images/contact/bg.jpg');
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -44,7 +44,7 @@
 }
 
 .inp-data .sub:hover{
-    background-color:black;
+    background-color:green;
     color: white;
     transition: background-color 0.4s ease, color 0.4s ease;
 }
