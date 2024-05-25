@@ -8,7 +8,7 @@
 }
 
 .About-outer{
-    height: 120vh;
+    height: 130vh;
     color: white;
     display:flex;
     font-family: 'Poppins', sans-serif;
@@ -125,6 +125,10 @@
     width: 55px;
     transition: height 0.2s ease, width 0.2s ease;
   }
+
+  .social-links{
+    margin-bottom:70px;
+  }
   
   .text-appear{
     color: black;
@@ -134,3 +138,4 @@
   .text-appear.visible {
     color: white;
   }  
+
