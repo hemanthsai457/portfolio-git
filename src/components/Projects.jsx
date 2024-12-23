@@ -34,7 +34,7 @@ const Projects = () => {
             <div className='proj-main-2'>
                 <div className='proj-inner'>
                     <h2><img src={portfolio} alt='Portfolio'/>My Portfolio</h2>
-                    <p>Hi</p>
+                    <p>The Personal Portfolio is a responsive website built with React, HTML, CSS, and JavaScript to showcase my skills, projects, and achievements. It features a sleek, mobile-friendly design with interactive elements like a collapsible menu and a smooth-scroll button. Deployed and managed on Github, Github Pages, it highlights my expertise in web development, UI/UX design, project implementation and maintainance.</p>
                     <br></br>
                     <a href='https://github.com/hemanthsai457/portfolio-git' target="_blank" rel="noopener noreferrer"><button className='view-but' type='button'>View</button></a>
                 </div>
