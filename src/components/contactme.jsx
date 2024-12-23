@@ -51,12 +51,12 @@ const Contactme = () => {
                 <textarea name="message" />
                 <input type="submit" className="sub" value="Send" />
                 </form>
-                <label>
+                {/* <label>
                     <img src={phone} alt='phone'></img>5622542792
-                </label>
-                <label>
+                </label> */}
+                {/* <label>
                     <img src={gmail} alt='gmail'></img>gokarakondahemanthsai@gmail.com
-                </label>
+                </label> */}
             </div>
         </div>
         
